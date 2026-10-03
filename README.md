@@ -1,4 +1,4 @@
-# Project 2: Flashcards! Part 1
+# Project 3: Flashcards! Part 2
 
 Submitted by: **Dee Munsaka**
 
@@ -8,27 +8,27 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] The app displays the title of the card set, a short description, and the total number of cards
-  - [x] Title of card set is displayed
-  - [x] A short description of the card set is displayed
-  - [x] A list of card pairs is created
-  - [x] The total number of cards in the set is displayed
-- [x] A single card at a time is displayed
-  - [x] A single card is displayed at a time
-  - [x] Only one half of the information pair is displayed at a time
-- [x] Clicking on the card flips the card over, showing the corresponding component of the information pair
-  - [x] Clicking on a card flips it over, showing the back with corresponding information
-  - [x] Clicking on a flipped card again flips it back, showing the front
-- [x] Clicking the next button displays a random new card
+- [x] The user can submit a guess into an input box before seeing the flipside of a card
+  - [x] Application features a clearly labeled input box with a submit button
+  - [x] Clicking submit with an incorrect answer shows visual feedback that it is wrong
+  - [x] Clicking submit with a correct answer shows visual feedback that it is correct
+- [x] The user can navigate through an ordered list of cards
+  - [x] A next button navigates to the next card in a set sequence
+  - [x] A back button returns to the previous card in the set sequence
+  - [x] Both buttons are grayed out and disabled at the beginning or end of the list (no wrap-around)
 
-The following **optional** features are implemented:
+The following **stretch** features are implemented:
 
-- [x] Cards have different visual styles such as color based on their category (difficulty: Easy/Medium/Hard)
-- [ ] Cards contain images in addition to or in place of text
+- [x] Users can use a shuffle button to randomize the order of the cards
+- [x] A user's answer may be counted as correct even when it is slightly different from the target answer (case, punctuation, and key-phrase matching)
+- [x] A counter displays the user's current and longest streak of correct responses
+- [x] A user can mark a card as mastered and have it removed from the pool of displayed cards
 
 The following **additional** features are implemented:
 
-- [x] Card flip uses a 3D CSS animation rather than an instant swap
+- [x] Card flip uses a 3D CSS animation
+- [x] Cards have different visual styles based on difficulty (Easy/Medium/Hard)
+- [x] List of mastered cards is displayed, with a restart option when all cards are mastered
 
 ## Video Walkthrough
 
